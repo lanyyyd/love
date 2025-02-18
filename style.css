@@ -61,12 +61,11 @@ button {
     align-items: center;
     justify-content: center;
 }
-/* 留言按钮样式 */
 .message-container {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
+    bottom: 20px; /* 确保按钮距离底部20px */
+    right: 20px;  /* 确保按钮距离右侧20px */
+    z-index: 999; /* 确保按钮在最上层 */
 }
 
 .message-btn {
